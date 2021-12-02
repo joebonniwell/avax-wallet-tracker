@@ -1,3 +1,11 @@
+# Overview
+
+This project is an avalanche wallet tracker, building from the Moralis SDK tutorial.
+
+## Resources
+
+https://youtu.be/YVCnxL_Cq94
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
