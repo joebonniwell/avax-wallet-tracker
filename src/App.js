@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import logo from './avax-logo.png';
 import './App.css';
+import { Box, Center, Heading } from '@chakra-ui/react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box display={"block"} p={35} className="App">
+      <Center>
+        <img width={500} height={500} src={logo} alt="logo" />
+      </Center>
+
+      <Center>
+        <Heading as="h2" size="3x1" p={10}>
+          Avalanche Wallet Tracker
+        </Heading>
+      </Center>
+    </Box>
   );
 }
 
