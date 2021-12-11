@@ -12,8 +12,6 @@ const theme = extendTheme({
   },
 });
 
-console.log(`Hello we are starting now: ${JSON.stringify(process.env)}`)
-
 ReactDOM.render(
   <React.StrictMode>
     <MoralisProvider appId={process.env.REACT_APP_MORALIS_APP_ID} serverUrl={process.env.REACT_APP_MORALIS_SERVER_URL}>
